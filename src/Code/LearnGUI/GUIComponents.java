@@ -14,7 +14,6 @@ public class GUIComponents extends JFrame
         setLayout(new FlowLayout());
         Label = new JLabel("A sentence");
 
-
         Label.setSize(2000,4000);
         Label.setVerticalAlignment(JLabel.BOTTOM);
         Label.setHorizontalTextPosition(JLabel.LEFT);
