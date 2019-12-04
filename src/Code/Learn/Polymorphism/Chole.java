@@ -1,6 +1,6 @@
 package Code.Learn.Polymorphism;
 
-public class ChildTwo extends Parent
+public class Chole extends food
 {
 
 }

@@ -1,8 +1,9 @@
 package Code.Main;
 
-import Code.Learn.Polymorphism.ChildOne;
-import Code.Learn.Polymorphism.ChildTwo;
-import Code.Learn.Polymorphism.Parent;
+import Code.Learn.Polymorphism.BingeEater;
+import Code.Learn.Polymorphism.Rajma;
+import Code.Learn.Polymorphism.Chole;
+import Code.Learn.Polymorphism.food;
 
 public class Mainclass {
     public static void main(String[] args)
@@ -67,14 +68,22 @@ public class Mainclass {
 
           */
 
+/* Polymorphism first
+         food[] polymorphedArray= new food[2];
+         polymorphedArray[0]=new Rajma();
+         polymorphedArray[1] = new Chole();
 
-         Parent[] polymorphedArray= new Parent[2];
-         polymorphedArray[0]=new ChildOne();
-         polymorphedArray[1] = new ChildTwo();
-
-         for(Parent p:polymorphedArray)
+         for(food p:polymorphedArray)
          {
              p.eat();
          }
+
+ */
+        food fd=new Rajma();
+        food od=new food();
+        BingeEater bingeEater = new BingeEater();
+        bingeEater.digest(fd);
+        bingeEater.digest(od);
+
     }
 }

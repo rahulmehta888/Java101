@@ -1,9 +1,9 @@
 package Code.Learn.Polymorphism;
 
-public class Parent
+public class food
 {
     public void eat()
     {
-        System.out.println("Parent Class");
+        System.out.println("Food Class");
     }
 }
