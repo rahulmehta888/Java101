@@ -1,15 +1,13 @@
 package Code.Main;
 
-import Code.EventsHandler.EventHandler;
-import Code.LearnGUI.GUIComponents;
-
-import javax.swing.*;
-import javax.swing.JFrame;
+import Code.Learn.Polymorphism.ChildOne;
+import Code.Learn.Polymorphism.ChildTwo;
+import Code.Learn.Polymorphism.Parent;
 
 public class Mainclass {
     public static void main(String[] args)
     {
-        /*One.Static
+        /*LearnStatic
 
         Static member1=new Static("first","last");
         Static member2=new Static("first","last");
@@ -21,7 +19,7 @@ public class Mainclass {
         System.out.println(Static.getMembers());
          */
 
-        /* Two.Final
+        /* LearnFinalVariable
 
         Final f=new Final(10);
         for(int i =0; i<10;i++)
@@ -34,7 +32,7 @@ public class Mainclass {
 
          */
 
-        /*
+        /* LearnInheritance
         InheritanceChildOne ChildOne=new InheritanceChildOne();
         InheritanceChildTwo ChildTwo= new InheritanceChildTwo();
         ChildOne.printsomething();
@@ -42,7 +40,7 @@ public class Mainclass {
 
          */
 
-         /*
+         /* LearnGUI
          String FirstNumber = JOptionPane.showInputDialog("Enter First Number");
          String LastNumber = JOptionPane.showInputDialog("Enter Last Number");
          int number1 = Integer.parseInt(FirstNumber);
@@ -52,7 +50,7 @@ public class Mainclass {
 
          */
 
-         /*
+         /*LearnGUI
         GUIComponents Components= new GUIComponents();
 
         Components.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -60,10 +58,23 @@ public class Mainclass {
         Components.setVisible(true);
 
           */
+
+         /* EventHandler
         EventHandler handler=new EventHandler();
         handler.setSize(1000,2000);
         handler.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         handler.setVisible(true);
 
+          */
+
+
+         Parent[] polymorphedArray= new Parent[2];
+         polymorphedArray[0]=new ChildOne();
+         polymorphedArray[1] = new ChildTwo();
+
+         for(Parent p:polymorphedArray)
+         {
+             p.eat();
+         }
     }
 }
