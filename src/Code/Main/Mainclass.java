@@ -1,6 +1,6 @@
 package Code.Main;
 
-import Code.EventsHandler.Handler;
+import Code.EventsHandler.EventHandler;
 import Code.LearnGUI.GUIComponents;
 
 import javax.swing.*;
@@ -60,12 +60,10 @@ public class Mainclass {
         Components.setVisible(true);
 
           */
-        Handler handler=new Handler();
+        EventHandler handler=new EventHandler();
         handler.setSize(1000,2000);
         handler.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         handler.setVisible(true);
-
-
 
     }
 }
