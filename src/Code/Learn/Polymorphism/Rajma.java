@@ -4,6 +4,6 @@ public class Rajma extends food
 {
     public void eat()
     {
-        System.out.println("Rajma Class");
+        System.out.println("Rajma  Class");
     }
 }

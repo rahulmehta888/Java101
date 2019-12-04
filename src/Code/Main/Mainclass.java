@@ -83,6 +83,7 @@ public class Mainclass {
         food od=new food();
         BingeEater bingeEater = new BingeEater();
         bingeEater.digest(fd);
+
         bingeEater.digest(od);
 
     }
