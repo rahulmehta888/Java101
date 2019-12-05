@@ -1,9 +1,7 @@
 package Code.Learn.Abstract;
 
-public class food
+abstract public class food
 {
-    public void eat()
-    {
-        System.out.println("Food Class");
-    }
+    abstract public  void eat();
+
 }

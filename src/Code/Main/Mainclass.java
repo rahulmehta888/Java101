@@ -1,5 +1,9 @@
 package Code.Main;
 
+import Code.Learn.Abstract.Potpie;
+import Code.Learn.Abstract.food;
+import Code.Learn.Abstract.tuna;
+
 public class Mainclass {
     public static void main(String[] args)
     {
@@ -83,6 +87,10 @@ public class Mainclass {
 
  */
 
+food t=new tuna();
+t.eat();
+food p=new Potpie();
+p.eat();
 
     }
 }
