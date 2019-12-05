@@ -1,6 +1,6 @@
 package Code.Learn.Polymorphism;
 
-public class Rajma extends food
+public class Rajma extends Khana
 {
     public void eat()
     {

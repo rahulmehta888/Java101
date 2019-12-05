@@ -1,10 +1,5 @@
 package Code.Main;
 
-import Code.Learn.Polymorphism.BingeEater;
-import Code.Learn.Polymorphism.Rajma;
-import Code.Learn.Polymorphism.Chole;
-import Code.Learn.Polymorphism.food;
-
 public class Mainclass {
     public static void main(String[] args)
     {
@@ -77,14 +72,17 @@ public class Mainclass {
          {
              p.eat();
          }
-
  */
+
+/* Polymorphism
         food fd=new Rajma();
         food od=new food();
         BingeEater bingeEater = new BingeEater();
         bingeEater.digest(fd);
-
         bingeEater.digest(od);
+
+ */
+
 
     }
 }

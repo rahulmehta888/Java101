@@ -1,6 +1,6 @@
 package Code.Learn.Polymorphism;
 
-public class food
+public class Khana
 {
     public void eat()
     {
