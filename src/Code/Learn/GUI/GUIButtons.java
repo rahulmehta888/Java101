@@ -33,6 +33,7 @@ add(Custom);
         HandlerClass handler= new HandlerClass();
         reg.addActionListener(handler);
         Custom.addActionListener(handler);
+
     }
 
 
@@ -44,6 +45,6 @@ class HandlerClass implements ActionListener
     @Override
     public void actionPerformed(ActionEvent e)
     {
-        JOptionPane.showMessageDialog(null,String.format("%s",e.getActionCommand()));
+        JOptionPane.showMessageDialog(null,String.format("Happened at = %s and parameter are %s and Source is %s",e.getActionCommand(),e.paramString(),e.getSource()));
     }
 }
