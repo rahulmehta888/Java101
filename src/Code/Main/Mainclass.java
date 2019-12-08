@@ -3,6 +3,10 @@ package Code.Main;
 import Code.Learn.Abstract.Potpie;
 import Code.Learn.Abstract.food;
 import Code.Learn.Abstract.tuna;
+import Code.Learn.GUI.GUIButtons;
+
+import javax.swing.*;
+import java.util.function.Consumer;
 
 public class Mainclass {
     public static void main(String[] args)
@@ -87,10 +91,19 @@ public class Mainclass {
 
  */
 
+/* Abstract
 food t=new tuna();
 t.eat();
 food p=new Potpie();
 p.eat();
+
+ */
+
+        GUIButtons guiButtons=new GUIButtons();
+        guiButtons.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        guiButtons.setSize(800,800);
+        guiButtons.setVisible(true);
+
 
     }
 }
