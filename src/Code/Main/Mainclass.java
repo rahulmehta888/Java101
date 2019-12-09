@@ -4,6 +4,7 @@ import Code.Learn.Abstract.Potpie;
 import Code.Learn.Abstract.food;
 import Code.Learn.Abstract.tuna;
 import Code.Learn.GUI.GUIButtons;
+import Code.Learn.GUI.GUICheckbox;
 
 import javax.swing.*;
 import java.util.function.Consumer;
@@ -91,18 +92,25 @@ public class Mainclass {
 
  */
 
-/* Abstract
+/* Abstract Class
 food t=new tuna();
 t.eat();
 food p=new Potpie();
 p.eat();
 
  */
-
+/*
         GUIButtons guiButtons=new GUIButtons();
         guiButtons.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         guiButtons.setSize(800,800);
         guiButtons.setVisible(true);
+
+ */
+
+        GUICheckbox guiCheckbox = new GUICheckbox();
+        guiCheckbox.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        guiCheckbox.setSize(1000,1000);
+        guiCheckbox.setVisible(true);
 
 
     }
