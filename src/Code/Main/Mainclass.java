@@ -5,6 +5,8 @@ import Code.Learn.Abstract.food;
 import Code.Learn.Abstract.tuna;
 import Code.Learn.GUI.GUIButtons;
 import Code.Learn.GUI.GUICheckbox;
+import Code.Learn.GUI.GUIRadioButton;
+import oracle.jrockit.jfr.JFR;
 
 import javax.swing.*;
 import java.util.function.Consumer;
@@ -107,11 +109,17 @@ p.eat();
 
  */
 
+/* CheckBox
         GUICheckbox guiCheckbox = new GUICheckbox();
         guiCheckbox.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         guiCheckbox.setSize(1000,1000);
         guiCheckbox.setVisible(true);
 
+ */
 
+        GUIRadioButton guiRadioButton = new GUIRadioButton();
+        guiRadioButton.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        guiRadioButton.setSize(700,700);
+        guiRadioButton.setVisible(true);
     }
 }
