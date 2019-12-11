@@ -14,7 +14,8 @@ public class GUIComboBOx extends JFrame
     private static String[] filename ={"C:\\Users\\pmehta\\Java2911\\src\\image\\rsz_pawan_avalanche_ooty.png","C:\\Users\\pmehta\\Java2911\\src\\image\\rsz_pawan_gandikota-grand_canyon_of_india.png"};
     private ImageIcon[] pics ={new ImageIcon(filename[0]), new ImageIcon(filename[1])};
 
-    public GUIComboBOx(){
+    public GUIComboBOx()
+    {
         super("Title");
         setLayout(new FlowLayout());
         picture= new JLabel(pics[0]);
@@ -25,9 +26,6 @@ public class GUIComboBOx extends JFrame
 
          Handler2 handler= new Handler2();
          box.addItemListener(handler);
-
-
-
     }
 
     class Handler2 implements ItemListener
