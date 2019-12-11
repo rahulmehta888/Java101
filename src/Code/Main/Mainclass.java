@@ -5,6 +5,7 @@ import Code.Learn.Abstract.food;
 import Code.Learn.Abstract.tuna;
 import Code.Learn.GUI.GUIButtons;
 import Code.Learn.GUI.GUICheckbox;
+import Code.Learn.GUI.GUIComboBOx;
 import Code.Learn.GUI.GUIRadioButton;
 import oracle.jrockit.jfr.JFR;
 
@@ -124,5 +125,9 @@ p.eat();
 
  */
 
+        GUIComboBOx guiComboBOx=new GUIComboBOx();
+        guiComboBOx.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        guiComboBOx.setSize(800,800);
+        guiComboBOx.setVisible(true);
     }
 }
