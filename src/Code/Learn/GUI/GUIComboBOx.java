@@ -39,5 +39,4 @@ public class GUIComboBOx extends JFrame
             picture.setIcon(pics[i]);
         }
     }
-
 }
