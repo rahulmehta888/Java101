@@ -25,9 +25,6 @@ public GUIMouse()
     mouse.addMouseMotionListener(handler);
 
 
-
-
-
 }
     private class MouseHandler implements MouseListener, MouseMotionListener{
 

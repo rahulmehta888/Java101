@@ -128,10 +128,21 @@ p.eat();
         guiComboBOx.setVisible(true);
 
  */
+/* List
         GUIList list=new GUIList();
         list.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         list.setSize(1000,500);
         list.setVisible(true);
+
+ */
+
+/* Mouse events
+GUIMouse mouse=new GUIMouse();
+mouse.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+mouse.setSize(700,700);
+mouse.setVisible(true);
+
+ */
 
     }
 }
