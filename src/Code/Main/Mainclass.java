@@ -3,10 +3,7 @@ package Code.Main;
 import Code.Learn.Abstract.Potpie;
 import Code.Learn.Abstract.food;
 import Code.Learn.Abstract.tuna;
-import Code.Learn.GUI.GUIButtons;
-import Code.Learn.GUI.GUICheckbox;
-import Code.Learn.GUI.GUIComboBOx;
-import Code.Learn.GUI.GUIRadioButton;
+import Code.Learn.GUI.*;
 import oracle.jrockit.jfr.JFR;
 
 import javax.swing.*;
@@ -124,10 +121,17 @@ p.eat();
         guiRadioButton.setVisible(true);
 
  */
-
+/* Combo Box
         GUIComboBOx guiComboBOx=new GUIComboBOx();
         guiComboBOx.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         guiComboBOx.setSize(800,800);
         guiComboBOx.setVisible(true);
+
+ */
+        GUIList list=new GUIList();
+        list.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        list.setSize(1000,500);
+        list.setVisible(true);
+
     }
 }
