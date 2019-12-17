@@ -5,6 +5,7 @@ import javax.swing.plaf.basic.BasicTreeUI;
 import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionAdapter;
 import java.awt.event.MouseMotionListener;
 
 public class GUIMouse extends JFrame {
@@ -69,4 +70,5 @@ public GUIMouse()
             statusbar.setText("Caught you moving the mouse");
         }
     }
+
 }
