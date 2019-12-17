@@ -64,11 +64,12 @@ public GUIMouse()
         @Override
         public void mouseDragged(MouseEvent e) {
 
+            statusbar.setText("you are a drag");
         }
 
         @Override
         public void mouseMoved(MouseEvent e) {
-
+            statusbar.setText("Caught you moving the mouse");
         }
     }
 }
