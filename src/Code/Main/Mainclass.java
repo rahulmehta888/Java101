@@ -7,6 +7,8 @@ import Code.Learn.GUI.*;
 import oracle.jrockit.jfr.JFR;
 
 import javax.swing.*;
+import java.util.Formatter;
+import java.util.Scanner;
 import java.util.function.Consumer;
 
 public class Mainclass {
@@ -143,6 +145,12 @@ mouse.setSize(700,700);
 mouse.setVisible(true);
 
  */
+
+GUIFlowlayout guiFlowlayout=new GUIFlowlayout();
+guiFlowlayout.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+guiFlowlayout.setSize(800,800);
+guiFlowlayout.setVisible(true);
+
 
     }
 }
