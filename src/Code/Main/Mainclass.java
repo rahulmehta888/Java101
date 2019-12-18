@@ -146,11 +146,22 @@ mouse.setVisible(true);
 
  */
 
+/*FlowLayout
 GUIFlowlayout guiFlowlayout=new GUIFlowlayout();
 guiFlowlayout.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 guiFlowlayout.setSize(800,800);
 guiFlowlayout.setVisible(true);
 
+ */
+
+GUIDraw guiDraw=new GUIDraw();
+guiDraw.setVisible(true);
+
+JFrame jFrame=new JFrame();
+        jFrame.add(new JScrollPane(guiDraw));
+        jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        jFrame.setSize(800,1000);
+        jFrame.setVisible(true);
 
     }
 }
