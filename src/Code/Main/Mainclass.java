@@ -4,6 +4,7 @@ import Code.Learn.Abstract.Potpie;
 import Code.Learn.Abstract.food;
 import Code.Learn.Abstract.tuna;
 import Code.Learn.GUI.*;
+import Code.Learn.Recursion.Hanoi;
 import oracle.jrockit.jfr.JFR;
 
 import javax.swing.*;
@@ -154,6 +155,7 @@ guiFlowlayout.setVisible(true);
 
  */
 
+/* GUIDraw
 GUIDraw guiDraw=new GUIDraw();
 guiDraw.setVisible(true);
 
@@ -162,6 +164,12 @@ JFrame jFrame=new JFrame();
         jFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         jFrame.setSize(800,1000);
         jFrame.setVisible(true);
+
+ */
+
+      //  Hanoi honoi=new Hanoi();
+       // Hanoi.towerOfHanoi(4,"A","B","C");
+
 
     }
 }
