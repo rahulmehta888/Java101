@@ -5,6 +5,7 @@ import Code.Learn.Abstract.food;
 import Code.Learn.Abstract.tuna;
 import Code.Learn.GUI.*;
 import Code.Learn.Recursion.Hanoi;
+import Code.Learn.Recursion.palindrome;
 import oracle.jrockit.jfr.JFR;
 
 import javax.swing.*;
@@ -170,6 +171,7 @@ JFrame jFrame=new JFrame();
       //  Hanoi honoi=new Hanoi();
        // Hanoi.towerOfHanoi(4,"A","B","C");
 
-
+palindrome p=new palindrome();
+        System.out.println(p.execute(1227887221));
     }
 }
